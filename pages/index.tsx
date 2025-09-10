@@ -28,7 +28,7 @@ const Home: React.FC = () => {
   // Function to send message to backend
   const sendToBackend = async (message: string) => {
     // TODO: Replace with your actual backend endpoint
-    const response = await fetch('http://localhost:3000/api/chat', {
+    const response = await fetch('https://mini-chat-app-production.up.railway.app/api/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
